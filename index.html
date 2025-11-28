@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ControlLog - Gestão de Pendências</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#4649CF',
+              secondary: '#6E71DA',
+              accent: '#2E31B4',
+              'light-bg': '#F2F2F8',
+              'light-surface': '#FFFFFF',
+              'dark-bg': '#0F103A',
+              'dark-surface': '#1A1B62',
+              'neon-red': '#FF3333',
+              'neon-yellow': '#FFFF00',
+              'neon-blue': '#4649CF',
+            },
+            boxShadow: {
+              'neon-blue': '0 0 10px rgba(70, 73, 207, 0.5)',
+              'neon-red': '0 0 10px rgba(255, 51, 51, 0.5)',
+              'neon-yellow': '0 0 10px rgba(255, 255, 0, 0.5)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar fallback if Tailwind utilities fail */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 4px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #334155; 
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "url": "https://aistudiocdn.com/url@^0.11.4",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

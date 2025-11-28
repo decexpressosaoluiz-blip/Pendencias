@@ -1,0 +1,7 @@
+{
+  "name": "ControlLog - Gestão de Pendências",
+  "description": "Sistema de controle de pendências logísticas integrado ao Google Sheets com validação de prazos e fluxo de justificativas.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

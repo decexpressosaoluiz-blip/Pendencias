@@ -1,0 +1,7 @@
+/* 
+  Tailwind directives removed to support CDN usage.
+  This file is kept to prevent import errors in main.tsx 
+*/
+body {
+  font-family: 'Inter', sans-serif;
+}
